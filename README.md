@@ -1,3 +1,11 @@
+#identify_duplicate_fastq_seq.py
+
+The script takes multiple fastq files and run like below:
+
+python3 identify_duplicate_fastq_seq.py one.fq two.fq three.fq four.fq
+
+The output of this script is all the files tab delimited with a matrix of duplicate ids, where the duplicate id isn't found, it just prints a "-"
+
 # metagenomic_analysis
 metagenomic_assembly_and_binning.py is a python wrapper to run Spades assemblies on a range of k-mers, alignment of reads back to the assembly and binning the assembled contigs.
 
