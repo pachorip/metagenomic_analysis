@@ -28,7 +28,7 @@ else:
 
 print ("Starting the Spades assemblies on a range of kmers")
 spades=local['spades.py']
-(spades['-k',"47,55,59,65,71,77,85",'-1', read1,'-2', read2,'-o', outputdir,'--meta','--only-assembler','--only-assembler'])()
+(spades['-1', read1,'-2', read2,'-o', outputdir,'--meta','--only-assembler','--only-assembler'])()
 print("spades assemblies finished")
 
 
